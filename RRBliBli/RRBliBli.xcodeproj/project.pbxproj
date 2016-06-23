@@ -8,14 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		16AC9C899D007E4470302AFD /* libPods-RRBliBli.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA14AA3B407A429F20E405F /* libPods-RRBliBli.a */; };
-		CACAD1EE1D1B9E780008B4B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD1ED1D1B9E780008B4B6 /* main.m */; };
-		CACAD1F11D1B9E780008B4B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD1F01D1B9E780008B4B6 /* AppDelegate.m */; };
-		CACAD1F41D1B9E780008B4B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD1F31D1B9E780008B4B6 /* ViewController.m */; };
 		CACAD1F71D1B9E780008B4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACAD1F51D1B9E780008B4B6 /* Main.storyboard */; };
 		CACAD1F91D1B9E780008B4B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CACAD1F81D1B9E780008B4B6 /* Assets.xcassets */; };
 		CACAD1FC1D1B9E780008B4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CACAD1FA1D1B9E780008B4B6 /* LaunchScreen.storyboard */; };
 		CACAD2071D1B9E790008B4B6 /* RRBliBliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2061D1B9E790008B4B6 /* RRBliBliTests.m */; };
 		CACAD2121D1B9E790008B4B6 /* RRBliBliUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2111D1B9E790008B4B6 /* RRBliBliUITests.m */; };
+		CACAD2291D1BCA500008B4B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2221D1BCA500008B4B6 /* AppDelegate.m */; };
+		CACAD22A1D1BCA500008B4B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2231D1BCA500008B4B6 /* main.m */; };
+		CACAD22F1D1BCB020008B4B6 /* RRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD22E1D1BCB020008B4B6 /* RRMainViewController.m */; };
+		CACAD2331D1BD3960008B4B6 /* RRFJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2311D1BD3960008B4B6 /* RRFJTableViewController.m */; };
+		CACAD2381D1BD3A70008B4B6 /* RRWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2361D1BD3A70008B4B6 /* RRWDViewController.m */; };
+		CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */; };
+		CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +42,6 @@
 /* Begin PBXFileReference section */
 		BCA14AA3B407A429F20E405F /* libPods-RRBliBli.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RRBliBli.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACAD1E91D1B9E780008B4B6 /* RRBliBli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RRBliBli.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CACAD1ED1D1B9E780008B4B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CACAD1EF1D1B9E780008B4B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CACAD1F01D1B9E780008B4B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CACAD1F21D1B9E780008B4B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CACAD1F31D1B9E780008B4B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CACAD1F61D1B9E780008B4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CACAD1F81D1B9E780008B4B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CACAD1FB1D1B9E780008B4B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,19 @@
 		CACAD20D1D1B9E790008B4B6 /* RRBliBliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRBliBliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACAD2111D1B9E790008B4B6 /* RRBliBliUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRBliBliUITests.m; sourceTree = "<group>"; };
 		CACAD2131D1B9E790008B4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CACAD2211D1BCA500008B4B6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CACAD2221D1BCA500008B4B6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CACAD2231D1BCA500008B4B6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CACAD22D1D1BCB020008B4B6 /* RRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMainViewController.h; sourceTree = "<group>"; };
+		CACAD22E1D1BCB020008B4B6 /* RRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMainViewController.m; sourceTree = "<group>"; };
+		CACAD2301D1BD3960008B4B6 /* RRFJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRFJTableViewController.h; sourceTree = "<group>"; };
+		CACAD2311D1BD3960008B4B6 /* RRFJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRFJTableViewController.m; sourceTree = "<group>"; };
+		CACAD2351D1BD3A70008B4B6 /* RRWDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRWDViewController.h; sourceTree = "<group>"; };
+		CACAD2361D1BD3A70008B4B6 /* RRWDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRWDViewController.m; sourceTree = "<group>"; };
+		CACAD23A1D1BD3B40008B4B6 /* RRMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRMusicViewController.h; sourceTree = "<group>"; };
+		CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMusicViewController.m; sourceTree = "<group>"; };
+		CACAD23D1D1BD53F0008B4B6 /* RRNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNavController.h; sourceTree = "<group>"; };
+		CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNavController.m; sourceTree = "<group>"; };
 		E7AA653DE9A7CE0C14AEE5C2 /* Pods-RRBliBli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.release.xcconfig"; sourceTree = "<group>"; };
 		FC968A2E31C3022BA6D5551F /* Pods-RRBliBli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,10 +137,7 @@
 		CACAD1EB1D1B9E780008B4B6 /* RRBliBli */ = {
 			isa = PBXGroup;
 			children = (
-				CACAD1EF1D1B9E780008B4B6 /* AppDelegate.h */,
-				CACAD1F01D1B9E780008B4B6 /* AppDelegate.m */,
-				CACAD1F21D1B9E780008B4B6 /* ViewController.h */,
-				CACAD1F31D1B9E780008B4B6 /* ViewController.m */,
+				CACAD21F1D1BCA500008B4B6 /* Class */,
 				CACAD1F51D1B9E780008B4B6 /* Main.storyboard */,
 				CACAD1F81D1B9E780008B4B6 /* Assets.xcassets */,
 				CACAD1FA1D1B9E780008B4B6 /* LaunchScreen.storyboard */,
@@ -141,7 +150,6 @@
 		CACAD1EC1D1B9E780008B4B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CACAD1ED1D1B9E780008B4B6 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,6 +170,66 @@
 				CACAD2131D1B9E790008B4B6 /* Info.plist */,
 			);
 			path = RRBliBliUITests;
+			sourceTree = "<group>";
+		};
+		CACAD21F1D1BCA500008B4B6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD22C1D1BCADF0008B4B6 /* Main */,
+				CACAD2201D1BCA500008B4B6 /* Other */,
+				CACAD2261D1BCA500008B4B6 /* 番剧 */,
+				CACAD2271D1BCA500008B4B6 /* 舞蹈 */,
+				CACAD2281D1BCA500008B4B6 /* 音乐 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CACAD2201D1BCA500008B4B6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2211D1BCA500008B4B6 /* AppDelegate.h */,
+				CACAD2221D1BCA500008B4B6 /* AppDelegate.m */,
+				CACAD2231D1BCA500008B4B6 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CACAD2261D1BCA500008B4B6 /* 番剧 */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2301D1BD3960008B4B6 /* RRFJTableViewController.h */,
+				CACAD2311D1BD3960008B4B6 /* RRFJTableViewController.m */,
+			);
+			path = "番剧";
+			sourceTree = "<group>";
+		};
+		CACAD2271D1BCA500008B4B6 /* 舞蹈 */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2351D1BD3A70008B4B6 /* RRWDViewController.h */,
+				CACAD2361D1BD3A70008B4B6 /* RRWDViewController.m */,
+			);
+			path = "舞蹈";
+			sourceTree = "<group>";
+		};
+		CACAD2281D1BCA500008B4B6 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD23A1D1BD3B40008B4B6 /* RRMusicViewController.h */,
+				CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		CACAD22C1D1BCADF0008B4B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD22D1D1BCB020008B4B6 /* RRMainViewController.h */,
+				CACAD22E1D1BCB020008B4B6 /* RRMainViewController.m */,
+				CACAD23D1D1BD53F0008B4B6 /* RRNavController.h */,
+				CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,9 +413,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CACAD1F41D1B9E780008B4B6 /* ViewController.m in Sources */,
-				CACAD1F11D1B9E780008B4B6 /* AppDelegate.m in Sources */,
-				CACAD1EE1D1B9E780008B4B6 /* main.m in Sources */,
+				CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */,
+				CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */,
+				CACAD22F1D1BCB020008B4B6 /* RRMainViewController.m in Sources */,
+				CACAD22A1D1BCA500008B4B6 /* main.m in Sources */,
+				CACAD2381D1BD3A70008B4B6 /* RRWDViewController.m in Sources */,
+				CACAD2291D1BCA500008B4B6 /* AppDelegate.m in Sources */,
+				CACAD2331D1BD3960008B4B6 /* RRFJTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
