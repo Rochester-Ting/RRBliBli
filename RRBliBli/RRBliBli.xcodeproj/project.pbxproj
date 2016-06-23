@@ -20,6 +20,7 @@
 		CACAD2381D1BD3A70008B4B6 /* RRWDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2361D1BD3A70008B4B6 /* RRWDViewController.m */; };
 		CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */; };
 		CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */; };
+		CACAD2421D1C30320008B4B6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2411D1C30320008B4B6 /* UIView+Frame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRMusicViewController.m; sourceTree = "<group>"; };
 		CACAD23D1D1BD53F0008B4B6 /* RRNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNavController.h; sourceTree = "<group>"; };
 		CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNavController.m; sourceTree = "<group>"; };
+		CACAD2401D1C30320008B4B6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		CACAD2411D1C30320008B4B6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		E7AA653DE9A7CE0C14AEE5C2 /* Pods-RRBliBli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.release.xcconfig"; sourceTree = "<group>"; };
 		FC968A2E31C3022BA6D5551F /* Pods-RRBliBli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +190,8 @@
 		CACAD2201D1BCA500008B4B6 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CACAD2401D1C30320008B4B6 /* UIView+Frame.h */,
+				CACAD2411D1C30320008B4B6 /* UIView+Frame.m */,
 				CACAD2211D1BCA500008B4B6 /* AppDelegate.h */,
 				CACAD2221D1BCA500008B4B6 /* AppDelegate.m */,
 				CACAD2231D1BCA500008B4B6 /* main.m */,
@@ -413,6 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CACAD2421D1C30320008B4B6 /* UIView+Frame.m in Sources */,
 				CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */,
 				CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */,
 				CACAD22F1D1BCB020008B4B6 /* RRMainViewController.m in Sources */,

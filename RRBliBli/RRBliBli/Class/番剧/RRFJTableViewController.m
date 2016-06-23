@@ -16,17 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObject:[UIColor greenColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
-    
-    self.tabBarItem.title = @"番剧";
-    self.tabBarItem.badgeValue = @"200";
-
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.view.backgroundColor = [UIColor yellowColor];
 }
 
 - (void)didReceiveMemoryWarning {
