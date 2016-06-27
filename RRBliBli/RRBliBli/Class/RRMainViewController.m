@@ -57,7 +57,7 @@
 - (void)setGDView{
     UIScrollView *scrollView = [[UIScrollView alloc] init];
     [self.view addSubview:scrollView];
-    scrollView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
+    scrollView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 64);
     scrollView.contentSize = CGSizeMake(3 * [UIScreen mainScreen].bounds.size.width, 0);
     scrollView.pagingEnabled = YES;
     scrollView.delegate = self;

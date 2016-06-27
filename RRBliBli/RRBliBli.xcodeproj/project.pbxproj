@@ -21,6 +21,9 @@
 		CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23B1D1BD3B40008B4B6 /* RRMusicViewController.m */; };
 		CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */; };
 		CACAD2421D1C30320008B4B6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2411D1C30320008B4B6 /* UIView+Frame.m */; };
+		CACAD2491D1CDD6F0008B4B6 /* RRRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2481D1CDD6F0008B4B6 /* RRRefreshFooter.m */; };
+		CACAD24C1D1CDD8A0008B4B6 /* RRRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD24B1D1CDD8A0008B4B6 /* RRRefreshHeader.m */; };
+		CACAD2521D1CE3330008B4B6 /* BannerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CACAD2511D1CE3330008B4B6 /* BannerItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,12 @@
 		CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNavController.m; sourceTree = "<group>"; };
 		CACAD2401D1C30320008B4B6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		CACAD2411D1C30320008B4B6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		CACAD2471D1CDD6F0008B4B6 /* RRRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRRefreshFooter.h; sourceTree = "<group>"; };
+		CACAD2481D1CDD6F0008B4B6 /* RRRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRRefreshFooter.m; sourceTree = "<group>"; };
+		CACAD24A1D1CDD8A0008B4B6 /* RRRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRRefreshHeader.h; sourceTree = "<group>"; };
+		CACAD24B1D1CDD8A0008B4B6 /* RRRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRRefreshHeader.m; sourceTree = "<group>"; };
+		CACAD2501D1CE3330008B4B6 /* BannerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerItem.h; sourceTree = "<group>"; };
+		CACAD2511D1CE3330008B4B6 /* BannerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerItem.m; sourceTree = "<group>"; };
 		E7AA653DE9A7CE0C14AEE5C2 /* Pods-RRBliBli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.release.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.release.xcconfig"; sourceTree = "<group>"; };
 		FC968A2E31C3022BA6D5551F /* Pods-RRBliBli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RRBliBli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RRBliBli/Pods-RRBliBli.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +187,7 @@
 		CACAD21F1D1BCA500008B4B6 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				CACAD2441D1CDC310008B4B6 /* Tools */,
 				CACAD22C1D1BCADF0008B4B6 /* Main */,
 				CACAD2201D1BCA500008B4B6 /* Other */,
 				CACAD2261D1BCA500008B4B6 /* 番剧 */,
@@ -202,8 +212,9 @@
 		CACAD2261D1BCA500008B4B6 /* 番剧 */ = {
 			isa = PBXGroup;
 			children = (
-				CACAD2301D1BD3960008B4B6 /* RRFJTableViewController.h */,
-				CACAD2311D1BD3960008B4B6 /* RRFJTableViewController.m */,
+				CACAD24F1D1CE3190008B4B6 /* View */,
+				CACAD24E1D1CE30E0008B4B6 /* Model */,
+				CACAD24D1D1CE3060008B4B6 /* Controller */,
 			);
 			path = "番剧";
 			sourceTree = "<group>";
@@ -235,6 +246,50 @@
 				CACAD23E1D1BD53F0008B4B6 /* RRNavController.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		CACAD2431D1CDC210008B4B6 /* RRRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2471D1CDD6F0008B4B6 /* RRRefreshFooter.h */,
+				CACAD2481D1CDD6F0008B4B6 /* RRRefreshFooter.m */,
+				CACAD24A1D1CDD8A0008B4B6 /* RRRefreshHeader.h */,
+				CACAD24B1D1CDD8A0008B4B6 /* RRRefreshHeader.m */,
+			);
+			name = RRRefresh;
+			sourceTree = "<group>";
+		};
+		CACAD2441D1CDC310008B4B6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2431D1CDC210008B4B6 /* RRRefresh */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CACAD24D1D1CE3060008B4B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2301D1BD3960008B4B6 /* RRFJTableViewController.h */,
+				CACAD2311D1BD3960008B4B6 /* RRFJTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CACAD24E1D1CE30E0008B4B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CACAD2501D1CE3330008B4B6 /* BannerItem.h */,
+				CACAD2511D1CE3330008B4B6 /* BannerItem.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CACAD24F1D1CE3190008B4B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,8 +476,11 @@
 				CACAD2421D1C30320008B4B6 /* UIView+Frame.m in Sources */,
 				CACAD23F1D1BD53F0008B4B6 /* RRNavController.m in Sources */,
 				CACAD23C1D1BD3B40008B4B6 /* RRMusicViewController.m in Sources */,
+				CACAD2521D1CE3330008B4B6 /* BannerItem.m in Sources */,
 				CACAD22F1D1BCB020008B4B6 /* RRMainViewController.m in Sources */,
+				CACAD24C1D1CDD8A0008B4B6 /* RRRefreshHeader.m in Sources */,
 				CACAD22A1D1BCA500008B4B6 /* main.m in Sources */,
+				CACAD2491D1CDD6F0008B4B6 /* RRRefreshFooter.m in Sources */,
 				CACAD2381D1BD3A70008B4B6 /* RRWDViewController.m in Sources */,
 				CACAD2291D1BCA500008B4B6 /* AppDelegate.m in Sources */,
 				CACAD2331D1BD3960008B4B6 /* RRFJTableViewController.m in Sources */,

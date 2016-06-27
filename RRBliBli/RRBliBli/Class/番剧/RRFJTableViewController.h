@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RRFJTableViewController : UITableViewController
+@interface RRFJTableViewController : UIViewController
 
 @end
