@@ -38,7 +38,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
-//    设置刷新
+//    设置刷新 迁到
     [self setRequest];
 }
 - (void)setRequest{
@@ -49,6 +49,9 @@
         
     }];
 }
+//1.MJExtension内部实现
+//2.AFN和SDWebImage内部的多线程用NSOperation比较多
+//3.
 
 //- (void)setRefresh{
 //    self.tableView.mj_header = [RRRefreshHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewMessage)];
