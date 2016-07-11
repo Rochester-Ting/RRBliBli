@@ -39,7 +39,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
 //    设置刷新 迁到
-//    签到
+//    签到2222
     [self setRequest];
 }
 - (void)setRequest{
